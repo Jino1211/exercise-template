@@ -15,7 +15,7 @@ function run() {
     }
     for (let j = 0; j < range.length; j++) { 
          if (((range[j] % 4 === 0) && (range[j] % 100 !== 0) || ((range[j] % 100 === 0) && (range[j] % 400 === 0))){
-            out += ' ' + range[j]
+            out += ' ' + range[j];
         }
 
     }
